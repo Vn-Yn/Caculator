@@ -41,7 +41,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(208, 91);
+=======
+            this.label1.Location = new System.Drawing.Point(193, 90);
+>>>>>>> feature-cal
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 24);
@@ -50,14 +54,22 @@
             // 
             // textBox1
             // 
+<<<<<<< HEAD
             this.textBox1.Location = new System.Drawing.Point(312, 86);
+=======
+            this.textBox1.Location = new System.Drawing.Point(320, 90);
+>>>>>>> feature-cal
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(143, 29);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
+<<<<<<< HEAD
             this.textBox2.Location = new System.Drawing.Point(312, 136);
+=======
+            this.textBox2.Location = new System.Drawing.Point(320, 140);
+>>>>>>> feature-cal
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(143, 29);
             this.textBox2.TabIndex = 3;
@@ -65,7 +77,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(208, 141);
+=======
+            this.label2.Location = new System.Drawing.Point(193, 140);
+>>>>>>> feature-cal
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 24);
@@ -74,7 +90,11 @@
             // 
             // button1
             // 
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(232, 235);
+=======
+            this.button1.Location = new System.Drawing.Point(233, 232);
+>>>>>>> feature-cal
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 38);
             this.button1.TabIndex = 4;
@@ -86,7 +106,11 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button2.ForeColor = System.Drawing.Color.Red;
+<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(232, 293);
+=======
+            this.button2.Location = new System.Drawing.Point(233, 290);
+>>>>>>> feature-cal
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(208, 38);
             this.button2.TabIndex = 5;
@@ -96,7 +120,11 @@
             // 
             // textBox3
             // 
+<<<<<<< HEAD
             this.textBox3.Location = new System.Drawing.Point(312, 181);
+=======
+            this.textBox3.Location = new System.Drawing.Point(320, 186);
+>>>>>>> feature-cal
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(143, 29);
             this.textBox3.TabIndex = 7;
@@ -104,7 +132,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(208, 186);
+=======
+            this.label3.Location = new System.Drawing.Point(193, 186);
+>>>>>>> feature-cal
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 24);
@@ -128,6 +160,7 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

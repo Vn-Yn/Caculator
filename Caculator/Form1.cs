@@ -24,13 +24,18 @@ namespace Caculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != string.Empty)
+            if (textBox1.Text != string.Empty && textBox2.Text != string.Empty)
             {
                 double a = double.Parse(textBox1.Text);
                 double b = double.Parse(textBox2.Text);
                 double c = a + b;
                 textBox3.Text = c.ToString();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
