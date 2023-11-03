@@ -81,12 +81,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.ForeColor = System.Drawing.Color.Red;
             this.button2.Location = new System.Drawing.Point(215, 251);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(208, 38);
             this.button2.TabIndex = 5;
             this.button2.Text = "Tru";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
